@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.titles{
+    font-family: 'Quicksand', sans-serif;
+}
+.LandingPage{
+    background: url('../../images/botanical-cactus-close-up-decor-305821.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+.nameBrand{
+    color: white;
+    
+}
+.linkHolder{
+    margin-left: 65%;
+}
+.links{
+    margin: 0px 8px 0px 8px;
+    
+    
+}
+.TitleName{
+    background-color: transparent;
+   
+}
