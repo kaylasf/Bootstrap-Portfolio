@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
@@ -18,48 +18,46 @@
 
 
 
-    <section class="LandingPage " id="LandingPage">
 
-        <!-- NAVBAR: Logo (takes you to top) - 3 tabs(disappear after AMSection) - DropDown button(Shows the 3 tabs-slide in from side??) -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent text-light">
-            <a class="navbar-brand lead" href="#LandingPage ">Website Under Construction</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav linkHolder">
-                    <a class="nav-item nav-link links lead  text-right" href="#AboutMeSection">About Me</a>
-                    <a class="nav-item nav-link links lead text-right" href="#PortfolioSection">Portfolio</a>
-                    <a class="nav-item nav-link links lead text-right" href="#ContactSection">Contact</a>
-                  
-                </div>
+
+    <!-- NAVBAR: Logo (takes you to top) - 3 tabs(disappear after AMSection) - DropDown button(Shows the 3 tabs-slide in from side??) -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent text-light">
+        <a class="navbar-brand lead" href="#LandingPage ">Website Under Construction</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav linkHolder">
+                <a class="nav-item nav-link links lead  text-right" href="#AboutMeSection">About Me</a>
+                <a class="nav-item nav-link links lead text-right" href="#PortfolioSection">Portfolio</a>
+                <a class="nav-item nav-link links lead text-right" href="#ContactSection">Contact</a>
+
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- LANDING PAGE -->
+    <!-- LANDING PAGE -->
+    
 
-  
+    <section class="LandingPage " id="LandingPage">
+        <!-- NAME & BACKGROUND IMAGE-->
 
-        <!-- NAME -->
-
-        <div class=" jumbotron jumbotron-fluid d-flex h-100 align-items-center text-center mb-0 bg-transparent ">
+        <!-- <div class=" jumbotron jumbotron-fluid d-flex h-100 align-items-center text-center  bg-transparent ">
             <div class="container align-items-center justify-content-center">
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-12 TitleName">
                         <h1 class=" display-2 text-dark mb-5">Kayla San Filippo</h1>
                     </div>
-                </div> -->
-            </div>
-        </div> 
-   <div class="row">
-                    <div class="col-12 TitleName">
-                        <h1 class=" lead text-dark mx-auto text-center">sanfilippokayla@gmail.com | 714.235.3992</h1>
-                    </div>
                 </div>
-
-
+            </div>
+        </div> -->
+        
+        
     </section>
+    <div class="TitleName ">
+        <h1 class=" lead  text-dark mx-auto text-center m-0 p-0" >sanfilippokayla@gmail.com | 714.235.3992</h1>
+    </div>
 
     <!-- ABOUT ME SECTION-gives size to the page -->
 
@@ -69,7 +67,8 @@
             <div class="row">
 
                 <div class="col-sm-12 col-md-5 text-center mt-5  pt-5 pb-5">
-                    <img id="bio-image" class="img-fluid mt-4" style="width:360px; height:460px;" src="https://placehold.it/200x200" alt="Picture of Kayla">
+                    <img id="bio-image" class="img-fluid mt-4" style="width:360px; height:460px;"
+                        src="https://placehold.it/200x200" alt="Picture of Kayla">
                 </div>
 
                 <div class="col-sm-12 col-md-7 text-center mt-5 pt-5 pb-5 lead">
@@ -101,6 +100,22 @@
             <div class="row">
                 <div class="col-12 text-center mt-5">
                     <h2 class="display-4">Latest Work</h2>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="./assets/images/burger.png" class="rounded float-left" alt="...">                    </div>
+                  </div>
                 </div>
             </div>
             <div class="row mt-5 text-center">
@@ -194,8 +209,9 @@
                                 <h5 class="card-title lead font-weight-bold">Email</h5>
                                 <p class="card-text lead">sanfiilippokayla@gmail.com</p>
                                 <h5 class="card-title lead font-weight-bold">Links</h5>
-                              <a href="https://www.linkedin.com/in/kayla-san-filippo-116bb6173/"><i class="fa fa-linkedin p-2"></i></a>
-                             <a href="https://github.com/kaylasf"> <i class="fa fa-github p-2"></i> </a>
+                                <a href="https://www.linkedin.com/in/kayla-san-filippo-116bb6173/"><i
+                                        class="fa fa-linkedin p-2"></i></a>
+                                <a href="https://github.com/kaylasf"> <i class="fa fa-github p-2"></i> </a>
                             </div>
                         </div>
                     </div>
