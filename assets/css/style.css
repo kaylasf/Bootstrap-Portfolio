@@ -41,3 +41,29 @@ img {
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
+  #theForm{
+ border-color: pink;
+      border-width: 20px;
+      
+  }
+  #ContactSection{
+      background-color:#e9e8e5;
+      height: 50vh;
+  }
+
+  #formContainer{
+      background-color: white;
+  }
+  input{
+      background-color:#dfe3d0;
+      border: 0;
+  }
+  input:hover{
+      background-color:#cdcebe;
+  }
+  textarea{
+    background-color:#dfe3d0
+  }
+  textarea:hover{
+    background-color:#cdcebe;
+}
