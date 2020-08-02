@@ -56,14 +56,36 @@ img {
   }
   input{
       background-color:#dfe3d0;
-      border: 0;
+      /* border: 0;
+      outline: none; */
+      outline: 0;
+      border-width: 0 0 2px;
+      border-color: #abb9b0;
   }
   input:hover{
       background-color:#cdcebe;
+      border-color: #69785a;
   }
   textarea{
-    background-color:#dfe3d0
+    background-color:#dfe3d0;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #abb9b0;
   }
   textarea:hover{
     background-color:#cdcebe;
+    /* border: 0;
+    outline: none; */
+  
+    border-color: #69785a;
+   
+}
+#subBtn{
+background-color:#dfe3d0;
+}
+#subBtn:hover{
+    background-color:#cdcebe; 
+}
+footer{
+    background-color: #e9e8e5;
 }

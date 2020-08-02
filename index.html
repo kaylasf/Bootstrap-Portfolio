@@ -155,24 +155,24 @@
         <div class="container-fluid w-100 ">
             <div class="jumbotron-fluid bg-transparent p-0 mt-5 w-100">
                 <div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-12 pb-4 mx-auto ">
+                    <div class="col-lg-10 col-md-10 col-sm-12  mx-auto ">
                         <!-- CONTACT FORM -->
                         <div class="text-center ">
                             <!-- CONTACT TITLE -->
-                            <h2 class="display-4 p-3">Get In Touch!</h2>
+                            <h2 class="display-4 ">Get In Touch!</h2>
                         </div>
 
-                        <div class="container pb-3" id="formContainer">
+                        <div class="container p-0" id="formContainer">
                             <form id="theForm" action="https://formspree.io/maypvoab" method="POST">
                                 <div class="row">
                                     <div class="col-6">
-                                        <label class="w-100">
+                                        <label class="w-100 p-1">
                                             Full Name:
                                             <input class="w-100" type="text" name="name">
                                         </label>
                                     </div>
                                     <div class="col-6">
-                                        <label class="w-100">
+                                        <label class="w-100 p-1">
                                             Email:
                                             <input class="w-100" type="text" name="_replyto">
                                         </label>
@@ -182,7 +182,7 @@
 
                                 <div class="row">
                                     <div class="col-12 ">
-                                        <label class="w-100">
+                                        <label class="w-100 p-1">
                                             Company:
                                             <input class="w-100" type="text" name="name">
                                         </label>
@@ -192,7 +192,7 @@
 
                                 <div class="row">
                                     <div class="col-12">
-                                        <label class="w-100">
+                                        <label class="w-100 p-1">
                                             Message:
                                             <textarea class="w-100" name="message"></textarea>
                                         </label>
@@ -200,8 +200,10 @@
                                 </div>
 
                                 <!-- your other form fields go here -->
-                                <div>
-                                    <button type="submit">Send</button>
+                                <div >
+                                   
+                                    <button id="subBtn" class="btn m-1 mb-2" type="submit">Send</button>
+                             
                                 </div>
                             </form>
                         </div>
@@ -237,7 +239,7 @@
 
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer fixed>
         <div id="copyright" class="text-center lead">
             Copyright
             <a target="_blank" href="https://www.linkedin.com/in/kayla-san-filippo-116bb6173/"><i class="fa fa-linkedin p-2"></i></a>
