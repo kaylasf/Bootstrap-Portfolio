@@ -89,3 +89,11 @@ background-color:#dfe3d0;
 footer{
     background-color: #e9e8e5;
 }
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #cssMeMargin{
+        margin-right: 0;
+    }
+    }
