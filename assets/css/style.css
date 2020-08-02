@@ -6,7 +6,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 .LandingPage{
-    background: url('../../images/botanical-cactus-close-up-decor-305821.jpg') no-repeat center center; 
+    background: url('../../images/newCactus2.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,10 +33,7 @@ html {
     background-color: transparent;
    
 }
-img {
-  height: 250px;
-  width: auto;
-  }
+
   
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -90,10 +87,29 @@ footer{
     background-color: #e9e8e5;
 }
 
-
+#bio-image {
+    height: 480px;
+    width: 400px;
+    
+    }
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        #bio-image {
+            height: 460px;
+            width: auto;
+            
+            }
+        }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #cssMeMargin{
         margin-right: 0;
     }
+
+  #bio-image {
+        height: 380px;
+        width: auto;
+        
+        }
     }
+
+    
