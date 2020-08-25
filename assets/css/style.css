@@ -51,37 +51,46 @@ html {
   #formContainer{
       background-color: white;
   }
+  #downArrow{
+      color: #cadd00;
+  
+  }
+  #downArrow:hover{
+
+    color: #afbe01;
+}
+
   input{
-      background-color:#dfe3d0;
+      background-color:whitesmoke;
       /* border: 0;
       outline: none; */
       outline: 0;
       border-width: 0 0 2px;
-      border-color: #abb9b0;
+      border-color: #cadd00;
   }
   input:hover{
-      background-color:#cdcebe;
-      border-color: #69785a;
+      background-color:rgb(226, 225, 225);
+      border-color: #afbe01;
   }
   textarea{
-    background-color:#dfe3d0;
+    background-color:whitesmoke;
     outline: 0;
     border-width: 0 0 2px;
-    border-color: #abb9b0;
+    border-color: #cadd00;
   }
   textarea:hover{
-    background-color:#cdcebe;
+    background-color:rgb(226, 225, 225);
     /* border: 0;
     outline: none; */
   
-    border-color: #69785a;
+    border-color: #afbe01
    
 }
 #subBtn{
-background-color:#dfe3d0;
+background-color:#cadd00;
 }
 #subBtn:hover{
-    background-color:#cdcebe; 
+    background-color:#afbe01; 
 }
 footer{
     background-color: #e9e8e5;
@@ -106,10 +115,70 @@ footer{
     }
 
   #bio-image {
-        height: 380px;
+        height: 30px;
         width: auto;
         
         }
     }
+    @font-face {
+        font-family: robotot;
+        src: url(../fonts/Roboto-Thin.ttf);
+        
+      }
+    @font-face {
+        font-family: robotoli;
+        src: url(../fonts/Roboto-LightItalic.ttf);
+        
+      }
+      @font-face {
+        font-family: robotol;
+        src: url(../fonts/Roboto-Light.ttf);
+        
+      }
+      @font-face {
+        font-family: robototi;
+        src: url(../fonts/Roboto-ThinItalic.ttf);
+        
+      }
+    @font-face {
+        font-family: LEMONMILKLITE;
+        src: url(../fonts/LEMONMILK-Light.otf);
+        
+      }
+      @font-face {
+        font-family: LEMONMILK;
+        src: url(../fonts/LEMONMILK-Regular.otf);
+        
+      }
+      @font-face {
+        font-family: VOGUE;
+        src: url(../fonts/Vogue.ttf);
+        
+      }
+      .robotoli{
+          font-family: 'robotoli';
+      }
+      .robotol{
+        font-family: 'robotol';
+    }
+      .robotot{
+        font-family: 'robotot';
+    }
+    .robototi{
+        font-family: 'robototi';
+    }
 
-    
+      .vogue{
+          font-family: 'VOGUE';
+      }
+    .lemonMilk{
+        font-family: 'LEMONMILK' ;
+    }
+    .lemonMilkLite{
+        font-family: 'LEMONMILKlITE' ;
+    }
+
+    #carouselSize{
+max-width: 100%;
+max-height: 50%;
+    }
