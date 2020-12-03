@@ -6,7 +6,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 .LandingPage{
-    background: url('../../images/newCactus2.png') no-repeat center center; 
+    background: url('../../images/peachCactus.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,8 +25,8 @@ html {
     margin-left: 65%;
 }
 .links{
-    margin: 0px 8px 0px 8px;
-    
+    margin: 0px 10px 0px 10px;
+    font-size: 75%;
     
 }
 .TitleName{
