@@ -56,10 +56,12 @@ html {
   }
 
   #formContainer{
-      background-color: white;
+    margin-top: 4%;
+      background-color: transparent;
   }
   #downArrow{
       color: #cadd00;
+      /* color: #d7b498; */
   
   }
   #downArrow:hover{
@@ -68,7 +70,7 @@ html {
 }
 
   input{
-      background-color:whitesmoke;
+      background-color:transparent;
       /* border: 0;
       outline: none; */
       outline: 0;
@@ -80,7 +82,7 @@ html {
       border-color: #afbe01;
   }
   textarea{
-    background-color:whitesmoke;
+    background-color:transparent;
     outline: 0;
     border-width: 0 0 2px;
     border-color: #cadd00;
