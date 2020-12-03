@@ -15,7 +15,12 @@ html {
 
 }
 
-
+.navbar{
+  font-size: 75%;
+}
+#navTitle{
+  font-size: 75%;
+}
 
 .nameBrand{
     color: white;
