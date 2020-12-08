@@ -1,6 +1,14 @@
-html {
+/* html {
     scroll-behavior: smooth;
-  }
+  } */
+  html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
 
 .titles{
     font-family: 'Quicksand', sans-serif;
@@ -19,7 +27,7 @@ html {
   font-size: 90%;
 }
 #navTitle{
-  font-size: 90%;
+  font-size: 70%;
 }
 
 .nameBrand{
@@ -60,14 +68,16 @@ html {
       background-color: transparent;
   }
   #downArrow{
-      color: #cadd00;
+      color: #d7b498;
       /* color: #d7b498; */
-  
+
   }
   #downArrow:hover{
 
-    color: #afbe01;
+    color: #bea086;
+
 }
+
 
   input{
       background-color:transparent;
